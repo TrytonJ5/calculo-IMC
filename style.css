@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    font-family: "Jacquard 12", system-ui;
+}
+.conteiner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.janela{
+    width: 500px;
+    height: 300px;
+    color: white;
+    border-radius: 30px;
+    text-align: center;
+    background-color : #58692e;
+}
+.janela h1{
+    margin: 20px;
+}
+form{
+    width: 350px;
+    margin: auto;
+    flex-wrap: wrap;
+    text-align: left;
+    padding:0 20px;
+}
+input[type="text"]{
+    width: 99%;
+    height: 25px;
+    border-radius: 5px;
+    margin: 5px 0;
+    border: none;
+}
+button{
+    border: none;
+    margin: 10px 0;
+    width: 100%;
+    padding: 5px;
+    border-radius: 5px;
+}
+button:hover{
+    background-color: #D56b1d;
+    color: white
+}
